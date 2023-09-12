@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.movies{
+    height: 200px;
+    width: 120px;
+    color: rgb(255, 21, 0);
+}
+
+img{
+    width: 120px;
+    height: 180px;
+}
+
+#parent{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#aside, #content{
+    height: 100%;
+    overflow-y: auto;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+#home{
+    width: 200px;
+}
+
+#input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: center;
+  border-radius: 5px;
+}
+#input:focus{
+    border: 3px solid #f84444;
+}
